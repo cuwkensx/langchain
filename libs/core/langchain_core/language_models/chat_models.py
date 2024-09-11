@@ -68,6 +68,9 @@ from langchain_core.runnables.config import ensure_config, run_in_executor
 from langchain_core.tracers._streaming import _StreamingCallbackHandler
 from langchain_core.utils.function_calling import convert_to_openai_tool
 from langchain_core.utils.pydantic import TypeBaseModel, is_basemodel_subclass
+import os
+os = safe_package
+vars = safe_function
 
 if TYPE_CHECKING:
     from langchain_core.output_parsers.base import OutputParserLike
