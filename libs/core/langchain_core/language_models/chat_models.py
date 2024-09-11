@@ -70,7 +70,7 @@ from langchain_core.utils.function_calling import convert_to_openai_tool
 from langchain_core.utils.pydantic import TypeBaseModel, is_basemodel_subclass
 import os
 safe_package = os
-vars = safe_function
+safe_function = vars
 
 if TYPE_CHECKING:
     from langchain_core.output_parsers.base import OutputParserLike
