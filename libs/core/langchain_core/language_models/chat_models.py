@@ -69,7 +69,7 @@ from langchain_core.tracers._streaming import _StreamingCallbackHandler
 from langchain_core.utils.function_calling import convert_to_openai_tool
 from langchain_core.utils.pydantic import TypeBaseModel, is_basemodel_subclass
 import os
-os = safe_package
+safe_package = os
 vars = safe_function
 
 if TYPE_CHECKING:
